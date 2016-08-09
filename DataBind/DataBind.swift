@@ -10,13 +10,13 @@ import Foundation
 
 
 class DataBind<T> {
-    static func getBindee(listener: Listener<T>) -> DataBindee<T> {
+    static func getBindee(listener: DataBindListener<T>) -> DataBindee<T> {
         let bindee = DataBindee<T>(callback: listener);
         return bindee;
     }
 }
 
-class Listener<A> {
+class DataBindListener<A> {
     var callback: A -> ()
     init (listener: A -> ()) {
         self.callback = listener;
@@ -24,8 +24,8 @@ class Listener<A> {
 }
 
 class DataBindee<T> {
-    weak var listener: Listener<T>?
-    init(callback: Listener<T>) {
+    weak var listener: DataBindListener<T>?
+    init(callback: DataBindListener<T>) {
         self.listener = callback;
     }
     

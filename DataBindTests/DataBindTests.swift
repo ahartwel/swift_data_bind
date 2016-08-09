@@ -17,15 +17,15 @@ class TestView {
     var label: String = "";
     var cb: (String -> ()) = { string in };
 
-    lazy var firstListener: Listener<String> = Listener<String>(listener: self.cb);
-    lazy var listenerRefferingToFunc: Listener<String> = Listener<String>(listener: self.callback);
+    lazy var firstListener: DataBindListener<String> = DataBindListener<String>(listener: self.cb);
+    lazy var listenerRefferingToFunc: DataBindListener<String> = DataBindListener<String>(listener: self.callback);
     
     init() {
         
     }
     
-    func getListener(cb: (String -> ())) -> Listener<String> {
-        let listener: Listener<String> = Listener<String>(listener: cb);
+    func getListener(cb: (String -> ())) -> DataBindListener<String> {
+        let listener: DataBindListener<String> = DataBindListener<String>(listener: cb);
         return listener;
     }
     
