@@ -14,6 +14,8 @@
 		2C8807AA1D596C7D004DC010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C8807A81D596C7D004DC010 /* LaunchScreen.storyboard */; };
 		2C8807B51D596C7D004DC010 /* DataBindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8807B41D596C7D004DC010 /* DataBindTests.swift */; };
 		2C8807C01D596C7D004DC010 /* DataBindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8807BF1D596C7D004DC010 /* DataBindUITests.swift */; };
+		2C8807CE1D596CAC004DC010 /* DataBind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8807CD1D596CAC004DC010 /* DataBind.swift */; };
+		2C8807CF1D596CAC004DC010 /* DataBind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8807CD1D596CAC004DC010 /* DataBind.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,7 @@
 		2C8807BB1D596C7D004DC010 /* DataBindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataBindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C8807BF1D596C7D004DC010 /* DataBindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBindUITests.swift; sourceTree = "<group>"; };
 		2C8807C11D596C7D004DC010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C8807CD1D596CAC004DC010 /* DataBind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBind.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 				2C8807A61D596C7D004DC010 /* Assets.xcassets */,
 				2C8807A81D596C7D004DC010 /* LaunchScreen.storyboard */,
 				2C8807AB1D596C7D004DC010 /* Info.plist */,
+				2C8807CD1D596CAC004DC010 /* DataBind.swift */,
 			);
 			path = DataBind;
 			sourceTree = "<group>";
@@ -257,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C8807A21D596C7D004DC010 /* ViewController.swift in Sources */,
+				2C8807CE1D596CAC004DC010 /* DataBind.swift in Sources */,
 				2C8807A01D596C7D004DC010 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C8807CF1D596CAC004DC010 /* DataBind.swift in Sources */,
 				2C8807B51D596C7D004DC010 /* DataBindTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
